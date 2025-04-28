@@ -1,7 +1,8 @@
 {
     "port" : "8080",
     "backends" : [
-        "https://dzen.ru/",
-        "https://www.google.com/"
+        "https://go.dev/play/",
+        "https://www.google.com",
+        "https://metanit.com/go/tutorial/"
     ]
 } 

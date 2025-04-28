@@ -1,0 +1,156 @@
+{"time":"2025-04-28T18:17:32.0996643+03:00","level":"ERROR","msg":"Error while opening file:","file":"config.json"}
+{"time":"2025-04-28T18:17:32.1151304+03:00","level":"ERROR","msg":"open config.json: The system cannot find the file specified."}
+{"time":"2025-04-28T18:18:16.3273915+03:00","level":"ERROR","msg":"Error while opening file:","file":"pkg/odels/onfig.json"}
+{"time":"2025-04-28T18:18:16.3429265+03:00","level":"ERROR","msg":"open pkg/odels/onfig.json: The system cannot find the path specified."}
+{"time":"2025-04-28T18:19:30.2489362+03:00","level":"ERROR","msg":"Error while opening file:","file":"pkg/models/onfig.json"}
+{"time":"2025-04-28T18:19:30.2670523+03:00","level":"ERROR","msg":"Error while loading config","!BADKEY":"open pkg/models/onfig.json: The system cannot find the path specified."}
+{"time":"2025-04-28T18:19:47.0845697+03:00","level":"ERROR","msg":"Error while opening file:","file":"pkg/models/config.json"}
+{"time":"2025-04-28T18:19:47.1006222+03:00","level":"ERROR","msg":"Error while loading config","!BADKEY":"open pkg/models/config.json: The system cannot find the path specified."}
+{"time":"2025-04-28T18:21:45.6072082+03:00","level":"INFO","msg":"Config file was upload","!BADKEY":"G:/LoadBalancer/pkg/models/config.json"}
+{"time":"2025-04-28T18:21:45.6237384+03:00","level":"INFO","msg":"Create rate limiter and start refill user tokens"}
+{"time":"2025-04-28T18:21:45.6237384+03:00","level":"INFO","msg":"server start on port %s","!BADKEY":"8080"}
+{"time":"2025-04-28T18:22:04.5141008+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:04.5141008+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru/"}
+{"time":"2025-04-28T18:22:04.5141008+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:10.3730246+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:10.3730246+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com/"}
+{"time":"2025-04-28T18:22:10.3730246+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:10.929276+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:10.929276+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru/"}
+{"time":"2025-04-28T18:22:10.929276+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:13.9765785+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:13.9765785+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com/"}
+{"time":"2025-04-28T18:22:13.9765785+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:14.745193+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:14.745193+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru/"}
+{"time":"2025-04-28T18:22:14.745193+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:15.4480709+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:15.4480709+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com/"}
+{"time":"2025-04-28T18:22:15.4480709+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:16.1292678+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:16.1292678+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru/"}
+{"time":"2025-04-28T18:22:16.1292678+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:16.5526683+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:16.5526683+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com/"}
+{"time":"2025-04-28T18:22:16.5526683+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:17.0627999+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:17.0627999+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru/"}
+{"time":"2025-04-28T18:22:17.0627999+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:17.4263932+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:17.4263932+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com/"}
+{"time":"2025-04-28T18:22:17.4263932+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:25.7611161+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:25.7611161+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru/"}
+{"time":"2025-04-28T18:22:25.7611161+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:31.5537826+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:31.5537826+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com/"}
+{"time":"2025-04-28T18:22:31.5537826+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T18:22:35.071117+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53128"}
+{"time":"2025-04-28T18:22:35.071117+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru/"}
+{"time":"2025-04-28T18:22:35.071117+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:02:29.2330707+03:00","level":"INFO","msg":"Config file was upload","!BADKEY":"G:/LoadBalancer/pkg/models/config.json"}
+{"time":"2025-04-28T19:02:29.2489927+03:00","level":"INFO","msg":"Create rate limiter and start refill user tokens"}
+{"time":"2025-04-28T19:02:29.2489927+03:00","level":"INFO","msg":"server start on port %s","!BADKEY":"8080"}
+{"time":"2025-04-28T19:02:49.5414974+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53851"}
+{"time":"2025-04-28T19:02:49.5414974+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru/"}
+{"time":"2025-04-28T19:02:49.5414974+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:02:53.1344835+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53851"}
+{"time":"2025-04-28T19:02:53.1344835+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com/"}
+{"time":"2025-04-28T19:02:53.1344835+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:03:05.2384384+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53851"}
+{"time":"2025-04-28T19:03:05.2384384+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru/"}
+{"time":"2025-04-28T19:03:05.2384384+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:03:52.6494308+03:00","level":"INFO","msg":"Config file was upload","!BADKEY":"G:/LoadBalancer/pkg/models/config.json"}
+{"time":"2025-04-28T19:03:52.6654313+03:00","level":"INFO","msg":"Create rate limiter and start refill user tokens"}
+{"time":"2025-04-28T19:03:52.6654313+03:00","level":"INFO","msg":"server start on port %s","!BADKEY":"8080"}
+{"time":"2025-04-28T19:04:05.363117+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53915"}
+{"time":"2025-04-28T19:04:05.363117+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:04:05.363117+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:04:11.2247209+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53915"}
+{"time":"2025-04-28T19:04:11.2247209+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:04:11.2247209+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:19.4787149+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53915"}
+{"time":"2025-04-28T19:05:19.4787149+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:05:19.4787149+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:19.6850489+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53915"}
+{"time":"2025-04-28T19:05:19.6850489+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:05:19.6850489+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:19.8450669+03:00","level":"ERROR","msg":"Backend server error calling in:","method":"Serve"}
+{"time":"2025-04-28T19:05:19.8475549+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53972"}
+{"time":"2025-04-28T19:05:19.8475549+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:05:19.8475549+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:20.0224466+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53972"}
+{"time":"2025-04-28T19:05:20.0224466+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:05:20.0224466+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:20.1938336+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53972"}
+{"time":"2025-04-28T19:05:20.1938336+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:05:20.1938336+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:20.3516372+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53972"}
+{"time":"2025-04-28T19:05:20.3516372+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:05:20.3516372+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:20.5122065+03:00","level":"ERROR","msg":"Backend server error calling in:","method":"Serve"}
+{"time":"2025-04-28T19:05:20.5137218+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53973"}
+{"time":"2025-04-28T19:05:20.5137218+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:05:20.5137218+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:20.6808908+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53973"}
+{"time":"2025-04-28T19:05:20.6808908+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:05:20.6808908+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:20.8701057+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53973"}
+{"time":"2025-04-28T19:05:20.8701057+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:05:20.8701057+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:21.0532867+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53973"}
+{"time":"2025-04-28T19:05:21.0532867+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:05:21.0532867+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:21.2375878+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53973"}
+{"time":"2025-04-28T19:05:21.2375878+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:05:21.2375878+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:21.4150499+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53973"}
+{"time":"2025-04-28T19:05:21.4150499+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:05:21.4150499+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:21.5669349+03:00","level":"ERROR","msg":"Backend server error calling in:","method":"Serve"}
+{"time":"2025-04-28T19:05:21.5685278+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53974"}
+{"time":"2025-04-28T19:05:21.5685278+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:05:21.5685278+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:21.7542462+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53974"}
+{"time":"2025-04-28T19:05:21.7542462+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:05:21.7542462+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:21.8963254+03:00","level":"ERROR","msg":"Backend server error calling in:","method":"Serve"}
+{"time":"2025-04-28T19:05:21.8991459+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53975"}
+{"time":"2025-04-28T19:05:21.8991459+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:05:21.8991459+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:38.1555292+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53975"}
+{"time":"2025-04-28T19:05:38.1555292+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:05:38.1555292+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:45.2973883+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53975"}
+{"time":"2025-04-28T19:05:45.2973883+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:05:45.2973883+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:47.7425651+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53975"}
+{"time":"2025-04-28T19:05:47.7425651+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:05:47.7425651+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:05:48.8660746+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:53975"}
+{"time":"2025-04-28T19:05:48.8660746+03:00","level":"INFO","msg":"Current backend:","backend":"https://dzen.ru"}
+{"time":"2025-04-28T19:05:48.8660746+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"dzen.ru","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:06:52.4617228+03:00","level":"INFO","msg":"Config file was upload","!BADKEY":"G:/LoadBalancer/pkg/models/config.json"}
+{"time":"2025-04-28T19:06:52.4767226+03:00","level":"INFO","msg":"Create rate limiter and start refill user tokens"}
+{"time":"2025-04-28T19:06:52.4767226+03:00","level":"INFO","msg":"server start on port %s","!BADKEY":"8080"}
+{"time":"2025-04-28T19:06:58.2842641+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:54098"}
+{"time":"2025-04-28T19:06:58.2842641+03:00","level":"INFO","msg":"Current backend:","backend":"https://go.dev/play/"}
+{"time":"2025-04-28T19:06:58.2842641+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"go.dev","Path":"/play/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:06:59.3657016+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:54098"}
+{"time":"2025-04-28T19:06:59.3657016+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:06:59.3657016+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:07:01.595806+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:54098"}
+{"time":"2025-04-28T19:07:01.595806+03:00","level":"INFO","msg":"Current backend:","backend":"https://metanit.com/go/tutorial/"}
+{"time":"2025-04-28T19:07:01.595806+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"metanit.com","Path":"/go/tutorial/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:07:43.0268488+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:54098"}
+{"time":"2025-04-28T19:07:43.0268488+03:00","level":"INFO","msg":"Current backend:","backend":"https://go.dev/play/"}
+{"time":"2025-04-28T19:07:43.0268488+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"go.dev","Path":"/play/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:07:44.3241023+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:54098"}
+{"time":"2025-04-28T19:07:44.3241023+03:00","level":"INFO","msg":"Current backend:","backend":"https://www.google.com"}
+{"time":"2025-04-28T19:07:44.3241023+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"www.google.com","Path":"","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:07:50.675341+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:54098"}
+{"time":"2025-04-28T19:07:50.675341+03:00","level":"INFO","msg":"Current backend:","backend":"https://metanit.com/go/tutorial/"}
+{"time":"2025-04-28T19:07:50.675341+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"metanit.com","Path":"/go/tutorial/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
+{"time":"2025-04-28T19:08:35.6052898+03:00","level":"INFO","msg":"Allow user access","user":"[::1]:54098"}
+{"time":"2025-04-28T19:08:35.6052898+03:00","level":"INFO","msg":"Current backend:","backend":"https://go.dev/play/"}
+{"time":"2025-04-28T19:08:35.6052898+03:00","level":"INFO","msg":"Serving request","backendUrl":{"Scheme":"https","Opaque":"","User":null,"Host":"go.dev","Path":"/play/","RawPath":"","OmitHost":false,"ForceQuery":false,"RawQuery":"","Fragment":"","RawFragment":""}}
