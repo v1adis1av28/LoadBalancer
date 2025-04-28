@@ -24,6 +24,6 @@ func (p *Proxy) Serve(w http.ResponseWriter, rq *http.Request) {
 		http.Error(w, "Backend server error", http.StatusBadGateway)
 		logger.Logger.Error("Backend server error calling in:", "method", "Serve")
 	}
-
+	logger.Logger.Info("Serving request", "backendUrl", backendUrl)
 	proxy.ServeHTTP(w, rq)
 }
