@@ -1,0 +1,7 @@
+{
+    "port" : "8080",
+    "backends" : [
+        "https://dzen.ru/",
+        "https://www.google.com/"
+    ]
+} 
