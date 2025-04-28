@@ -1,6 +1,9 @@
 package rateLimiter
 
 import (
+	"LoadBalancer/internal/logger"
+	"encoding/json"
+	"os"
 	"sync"
 	"time"
 )
@@ -33,4 +36,23 @@ func (rl *RateLimiter) refillTokens() {
 		}
 		rl.mu.Unlock()
 	}
+}
+
+func getDefaulBucket() *TokenBucket {
+	file, err := os.Open("bucket.json")
+	if err != nil {
+		logger.Logger.Error("Error while openning file bucket.json")
+		return nil
+	}
+	defer file.Close()
+	logger.Logger.Info("Default bucket file was upload")
+	var bucket TokenBucket
+
+	decode := json.NewDecoder(file)
+	if err := decode.Decode(&bucket); err != nil {
+		logger.Logger.Error("Error while decoding bucket.json")
+		return nil
+	}
+	bucket.lastRefill = time.Now()
+	return &bucket
 }

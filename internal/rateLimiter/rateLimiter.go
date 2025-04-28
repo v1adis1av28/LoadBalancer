@@ -3,7 +3,6 @@ package rateLimiter
 import (
 	"LoadBalancer/internal/logger"
 	"sync"
-	"time"
 )
 
 type RateLimiter struct {
@@ -24,13 +23,9 @@ func NewRateLimiter() *RateLimiter {
 func (rl *RateLimiter) Allow(clientId string) bool {
 	rl.mu.Lock()
 	tokenBucket, exists := rl.buckets[clientId]
+	//If it doesn`t exist we creating default Bucket
 	if !exists {
-		tokenBucket = &TokenBucket{
-			RefilRate:  1,
-			Capacity:   10,
-			Tokens:     10,
-			lastRefill: time.Now(),
-		}
+		tokenBucket = getDefaulBucket()
 		rl.buckets[clientId] = tokenBucket
 	}
 	rl.mu.Unlock()

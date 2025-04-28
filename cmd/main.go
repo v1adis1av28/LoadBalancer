@@ -6,8 +6,14 @@ import (
 	"LoadBalancer/internal/logger"
 	"LoadBalancer/internal/proxy"
 	"LoadBalancer/internal/rateLimiter"
+	"encoding/json"
 	"net/http"
 )
+
+type Message struct {
+	Code    string `json : "code"`
+	Message string `json : "message"`
+}
 
 func main() {
 	//Starting application
@@ -27,6 +33,12 @@ func main() {
 		clientID := r.RemoteAddr
 		if !rl.Allow(clientID) {
 			http.Error(w, "Rate limit exceeded", http.StatusTooManyRequests)
+			obj, err := json.Marshal(Message{Code: "429", Message: "Rate limit exceed!"})
+			if err != nil {
+				logger.Logger.Error("Error while decoding message")
+			}
+			w.Header().Set("Content-Type", "application/json")
+			w.Write(obj)
 			return
 		}
 		p.Serve(w, r)

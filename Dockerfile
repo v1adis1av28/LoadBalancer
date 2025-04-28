@@ -14,7 +14,7 @@ FROM alpine:latest
 WORKDIR /root/
 
 COPY --from=builder /app/load-balancer .
-COPY pkg/models/config.json .
+COPY pkg/models/ .
 
 RUN chmod +x ./load-balancer
 
