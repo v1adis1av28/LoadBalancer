@@ -12,9 +12,9 @@ type Config struct {
 }
 
 func LoadConfig(path string) (*Config, error) {
-
 	file, err := os.Open(path)
 	if err != nil {
+		logger.Logger.Error("Error while opening file:", "file", path)
 		return nil, err
 	}
 	defer file.Close()
