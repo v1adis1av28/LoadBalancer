@@ -16,7 +16,7 @@ func NewLoadBalancer(backends []string) *LoadBalancer {
 	return &LoadBalancer{Index: 0, Backends: backends}
 }
 
-func NextBackend(lb *LoadBalancer) string {
+func (lb *LoadBalancer) NextBackend() string {
 
 	lb.mu.Lock()
 	defer lb.mu.Unlock()
