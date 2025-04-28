@@ -43,6 +43,7 @@ func (rl *RateLimiter) Allow(clientId string) bool {
 		logger.Logger.Info("Allow user access", "user", clientId)
 		return true
 	}
+
 	logger.Logger.Info("Doesn`t allow access for user", "user", clientId)
 	return false
 }
