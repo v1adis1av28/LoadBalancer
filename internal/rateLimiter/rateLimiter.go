@@ -3,6 +3,7 @@ package rateLimiter
 import (
 	"LoadBalancer/internal/logger"
 	"sync"
+	"time"
 )
 
 type RateLimiter struct {
@@ -41,4 +42,24 @@ func (rl *RateLimiter) Allow(clientId string) bool {
 
 	logger.Logger.Info("Doesn`t allow access for user", "user", clientId)
 	return false
+}
+
+// adding user with custom capacity and rate
+func (rl *RateLimiter) AddUser(clientId string, capacity int, refillRate int) {
+	rl.mu.Lock()
+	defer rl.mu.Unlock()
+
+	rl.buckets[clientId] = &TokenBucket{
+		Capacity:   capacity,
+		Tokens:     capacity,
+		RefilRate:  refillRate,
+		lastRefill: time.Now(),
+	}
+}
+
+// deleteing user
+func (rl *RateLimiter) DeleteUser(clientId string) {
+	rl.mu.Lock()
+	defer rl.mu.Unlock()
+	delete(rl.buckets, clientId)
 }
