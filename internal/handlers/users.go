@@ -2,48 +2,44 @@ package handlers
 
 import (
 	"LoadBalancer/internal/logger"
-	"LoadBalancer/internal/rateLimiter"
+	"LoadBalancer/internal/models"
+	"LoadBalancer/internal/repository"
 	"encoding/json"
 	"net/http"
 	"strings"
 )
 
-// struct for post requests
-type UserRequest struct {
-	ClientID   string `json:"client_id"`
-	Capacity   int    `json:"capacity"`
-	RefillRate int    `json:"rate_per_sec"`
-}
-
-type UserHandler struct {
-	Limiter *rateLimiter.RateLimiter
-}
-
-func (h *UserHandler) AddClient(w http.ResponseWriter, r *http.Request) {
-	var req UserRequest
-	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-		logger.Logger.Error("Error on request body!")
-		http.Error(w, "Invalid request body", http.StatusBadRequest)
+func AddClient(w http.ResponseWriter, r *http.Request) {
+	var user models.User
+	if err := json.NewDecoder(r.Body).Decode(&user); err != nil {
+		logger.Logger.Error("Invalid json body on adding client")
+		http.Error(w, "Invalid JSON", http.StatusBadRequest)
 		return
 	}
 
-	h.Limiter.AddUser(req.ClientID, req.Capacity, req.RefillRate)
-	logger.Logger.Info("User was added", req.ClientID)
+	if err := repository.AddClient(&user); err != nil {
+		http.Error(w, "Failed to add client", http.StatusInternalServerError)
+		return
+	}
+
 	w.WriteHeader(http.StatusCreated)
-	w.Write([]byte("Client added"))
+	w.Write([]byte("Client created"))
 }
 
-func (h *UserHandler) DeleteClient(w http.ResponseWriter, r *http.Request) {
+func DeleteClient(w http.ResponseWriter, r *http.Request) {
 	clientID := strings.TrimPrefix(r.URL.Path, "/clients/")
 	if clientID == "" {
-		logger.Logger.Error("Error while deleting user! Empty clientID")
-		http.Error(w, "Client ID required", http.StatusBadRequest)
+		logger.Logger.Error("Error on client id", "client_id", clientID)
+		http.Error(w, "Client ID is required", http.StatusBadRequest)
 		return
 	}
 
-	h.Limiter.DeleteUser(clientID)
-	logger.Logger.Info("User was deleted", "UserID", clientID)
+	if err := repository.DeleteClient(clientID); err != nil {
+		logger.Logger.Error("Error while deleting client", "client_id", clientID)
+		http.Error(w, "Failed to delete client", http.StatusInternalServerError)
+		return
+	}
 	w.Write([]byte("Client deleted"))
 }
 
-//TODO add sql implementation
+//todo add docker-compose psql
