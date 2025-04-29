@@ -52,5 +52,3 @@ func DeleteClient(w http.ResponseWriter, r *http.Request) {
 	}
 	w.Write([]byte("Client deleted"))
 }
-
-//todo add docker-compose psql
