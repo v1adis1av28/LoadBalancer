@@ -1,5 +1,4 @@
 package main
-
 import (
 	"LoadBalancer/internal/balancer"
 	"LoadBalancer/internal/config"
