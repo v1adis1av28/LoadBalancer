@@ -3,11 +3,22 @@ package handlers
 import (
 	"LoadBalancer/internal/logger"
 	"LoadBalancer/internal/models"
+	"LoadBalancer/internal/rateLimiter"
 	"LoadBalancer/internal/repository"
 	"encoding/json"
 	"net/http"
 	"strings"
 )
+
+type ClientRequest struct {
+	ClientID   string `json:"client_id"`
+	Capacity   int    `json:"capacity"`
+	RefillRate int    `json:"rate_per_sec"`
+}
+
+type ClientsHandler struct {
+	Limiter *rateLimiter.RateLimiter
+}
 
 func AddClient(w http.ResponseWriter, r *http.Request) {
 	var user models.User
