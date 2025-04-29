@@ -19,20 +19,21 @@ type Message struct {
 
 func main() {
 	logger.SetupLogger("app.log")
+	if err := db.InitDB("postgres", "5432", "postgres", "postgres", "loadbalancer"); err != nil {
+		logger.Logger.Error("Failed to initialize database: %v", err)
+	}
+	defer db.CloseDB()
 
 	cfg, err := config.LoadConfig("config.json")
 	if err != nil {
-		logger.Logger.Error("Error while loading config", err.Error())
+		logger.Logger.Error("Error while loading config: %v", err)
 	}
 
 	b := balancer.NewLoadBalancer(cfg.Backends)
 	p := proxy.NewProxy(b)
 	rl := rateLimiter.NewRateLimiter()
-	//	ch := &handlers.ClientsHandler{Limiter: rl}
-	db.InitDB("postgres", "5432:5432", "postgres", "postgres", "balancer")
-	mux := http.NewServeMux()
 
-	// API для клиентов
+	mux := http.NewServeMux()
 	mux.HandleFunc("/clients", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method == http.MethodPost {
 			handlers.AddClient(w, r)
@@ -59,7 +60,7 @@ func main() {
 		p.Serve(w, r)
 	})
 
-	logger.Logger.Info("server start on port %s", cfg.Port)
+	logger.Logger.Info("Server start on port %s", cfg.Port)
 	if err := http.ListenAndServe(":"+cfg.Port, mux); err != nil {
 		logger.Logger.Error("Error starting server: %v", err)
 	}

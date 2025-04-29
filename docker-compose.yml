@@ -2,6 +2,15 @@ version: '3.9'
 
 services:
 
+  loadbalancer:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: on-failure
+
   postgres:
     image: postgres:14
     restart: always
@@ -11,17 +20,12 @@ services:
       POSTGRES_DB: loadbalancer
     ports:
       - "5432:5432"
-
-  loadbalancer:
-    build: .
-    ports:
-      - "8080:8080"
-    depends_on:
-      - backend1
-      - backend2
-      - backend3
-      - postgres
-
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    
   backend1:
     image: nginx:alpine
     ports:
