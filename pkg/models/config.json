@@ -1,8 +1,10 @@
 {
-    "port" : "8080",
-    "backends" : [
-        "https://go.dev/play/",
-        "https://www.google.com",
-        "https://metanit.com/go/tutorial/"
+    "port": "8080",
+    "backends": [
+      "http://backend1:80",
+      "http://backend2:8080",
+      "http://backend3:80"
     ]
-} 
+  }
+  
+
